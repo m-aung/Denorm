@@ -48,10 +48,6 @@ Deno.test(`dORM query vs raw query for single Join in JOIN method:`,  () => {
   assertEquals(fromRaw.rows, fromTry.rows, 'JOIN query and RAW query should be equal.')
 });
 
-<<<<<<< HEAD
-
-=======
->>>>>>> main
 const multiJoinQuery1: any = await dorm
 .select()
 .from('people')
